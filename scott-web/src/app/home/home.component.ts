@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
+
+  PRSlink(): void {
+    window.open("http://joshscott82.com", '_blank');
+    window.focus(); 
+  }
 
   ngOnInit(): void {
   }
