@@ -1,3 +1,15 @@
 .prsTitle{
     padding-left: 150px;
 }
+.prsTitle:hover {
+    background-color:white;
+}
+.spAdv{
+    padding-left: 150px;
+}
+.spAdv:hover{
+    background-color: white;
+}
+tbody tr:hover {
+    background-color: white;
+}
