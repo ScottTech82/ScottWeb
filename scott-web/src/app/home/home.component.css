@@ -1,15 +1,15 @@
+#mainpage{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
 .prsTitle{
     padding-left: 150px;
-}
-.prsTitle:hover {
-    background-color:white;
 }
 .spAdv{
     padding-left: 150px;
 }
-.spAdv:hover{
-    background-color: white;
-}
-tbody tr:hover {
-    background-color: white;
+#btnlink{
+    text-decoration: none;
+    color: black;
 }
