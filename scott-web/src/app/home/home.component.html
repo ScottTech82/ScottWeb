@@ -1,33 +1,36 @@
 <div id="mainpage">
     <h4>Welcome to my Projects!</h4><br>
-    <span>My name is Josh Scott and I want to thank you for taking the time to visit some of my current projects.&nbsp; 
-        Some projects are complete, but most are a work in progress.</span><br>
-    <br><p>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;You can take a look at an example Purchase Request System (PRS) below, that uses SQL, C#, & Angular to create and store 
-        purchase requests, vendors, users, specific products and the requests themselves. &nbsp;The Guest login allows you to view the 
-    system but limits the ability to make any changes or updates. &nbsp;If you would like to use an Admin login to view the entire
-    system, please contact me and I will provide upon request. &nbsp;When logged in as an Admin you have the ability to add, remove, update 
-all information in the system. &nbsp;This makes calls to the SQL database to perform those functions. </span>
-    </p>
-    <p>
-    <span>&nbsp;&nbsp;&nbsp;&nbsp;Or view the game my kids asked if I could make and turned into a full on Space Adventure with working 
-        Pazaak card game from Star Wars or the work in progress battle system. &nbsp;This is currently setup as a console app in C#; 
-        however, I am learning to utilize Unity and Unreal Engine so I will be able to transfer it over with graphics in the future. 
-        &nbsp;Pazaak is currently in the Casino area along with a couple slot machines and blackjack to increase your credits to buy one 
-        of the ships in the Ship Bazaar.</span>
-    </p>
+    <span>My name is Josh Scott and I want to thank you for taking the time to visit my current projects.&nbsp; 
+        Some projects are complete, but most are a work in progress; as I will always be adding some sort of feature or update to them.
+        &nbsp;It's a lot of fun creating & building these projects and then seeing how people interact with them. &nbsp;If you have any 
+        suggestions or improvements for me, feel free to email me at </span><a mailto="JoshScott82@gmail.com">JoshScott82@gmail.com.</a>
+        <br>
+    <br>
+
     <table class="table table-sm">
         <tbody>
             <tr>&nbsp;</tr>
             <tr>
-                <button class="btn btn-link" id="btnlink">
-                <h5 class="prsTitle" (click)="PRSlink()">PRS System</h5>
-                </button>
+                    <button class="btn btn-link" id="btnlink">
+                    <h5 class="prsTitle" (click)="PRSlink()">PRS System</h5>
+                    </button>
             </tr>
             <tr>
-                <button>
-                <img src="/assets/ScottPRSmd.png" (click)="PRSlink()">
-                </button>
+                <th>
+                    <button>
+                        <img src="/assets/ScottPRSmd.png" (click)="PRSlink()">
+                    </button>
+                </th>
+                <td>
+                    <br>
+                    <p>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;Here you can take a look at an example Purchase Request System (PRS), that uses SQL, C#, & Angular to create and store 
+                        purchase requests, vendors, users, specific products and the requestlines. &nbsp;The Guest login allows you to view the 
+                        system but limits the ability to make any changes or updates. &nbsp;If you would like to use an Admin login to view the entire
+                        system, please contact me and I will provide one upon request. &nbsp;When logged in as an Admin you have the ability to add, remove, update,
+                        and delete all information in the system. &nbsp;This makes calls to the SQL database to perform those specific functions. </span>
+                    </p>
+                </td>
             </tr>
             <tr>&nbsp;</tr>
             <tr>&nbsp;</tr>
@@ -37,9 +40,21 @@ all information in the system. &nbsp;This makes calls to the SQL database to per
                 </button>
             </tr>
             <tr>
+                <th>
                 <button>
                     <img src="/assets/SpAdvPazaakmd.png" (click)="SpAdvLink()">
                 </button>
+                </th>
+                <td>
+                    <p>
+                        <br>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;Or you can check out the game my kids asked if I could make and turned into a full on Space Adventure with working 
+                        Pazaak card game from Star Wars or the work in progress battle system. &nbsp;This is currently setup as a console app in C# & Visual Studio 2022; 
+                        however, I am learning to utilize Unity and Unreal Engine, so I will be able to transfer it over with graphics in the future. 
+                        &nbsp;Pazaak is currently in the Casino area along with a couple slot machines and blackjack to increase your credits to buy one 
+                        of the ships in the Ship Bazaar.</span>
+                    </p>
+                </td>
             </tr>
         </tbody>
     </table>
