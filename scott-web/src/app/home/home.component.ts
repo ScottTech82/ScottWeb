@@ -15,6 +15,11 @@ export class HomeComponent implements OnInit {
     window.focus(); 
   }
 
+  SpAdvLink(): void {
+    window.open("https://github.com/ScottTech82/SpaceAdventure", '_blank');
+    window.focus();
+  }
+
   ngOnInit(): void {
   }
 
