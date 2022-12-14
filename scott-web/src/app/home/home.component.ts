@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   PRSlink(): void {
-    window.open("http://joshscott82.com", '_blank');
+    window.open("http://joshscott82.com/angularprs", '_blank');
     window.focus(); 
   }
 
