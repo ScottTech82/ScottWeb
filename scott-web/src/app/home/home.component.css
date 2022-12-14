@@ -3,6 +3,9 @@
     margin-top: 25px;
     margin-right: 50px;
 }
+#maintitle{
+    color: rgb(31, 124, 116);
+}
 .prsTitle{
     padding-left: 150px;
 }
@@ -12,4 +15,11 @@
 #btnlink{
     text-decoration: none;
     color: black;
+}
+.spAdvWords{
+    padding-left: 30px;
+    }
+#email{
+    text-decoration:none;
+    color:rgb(58, 97, 99);
 }
