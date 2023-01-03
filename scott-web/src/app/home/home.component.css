@@ -6,17 +6,15 @@
 #maintitle{
     color: rgb(31, 124, 116);
 }
-.prsTitle{
+.webTitle{
     padding-left: 150px;
-}
-.spAdv{
-    padding-left: 150px;
+    display: inline;
 }
 #btnlink{
     text-decoration: none;
     color: black;
 }
-.spAdvWords{
+.webText{
     padding-left: 30px;
     }
 #email{

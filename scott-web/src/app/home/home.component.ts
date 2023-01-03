@@ -20,6 +20,11 @@ export class HomeComponent implements OnInit {
     window.focus();
   }
 
+  DinPlan(): void {
+    window.open("http://joshscott82.com/dinnerplanner", '_blank');
+    window.focus();
+  }
+
   ngOnInit(): void {
   }
 
