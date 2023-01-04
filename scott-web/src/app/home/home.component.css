@@ -1,10 +1,11 @@
 #mainpage{
     margin-left: 50px;
-    margin-top: 25px;
     margin-right: 50px;
+    padding-top: 2%;
+    
 }
 #maintitle{
-    color: rgb(31, 124, 116);
+    color: white; /* prior 31, 124, 116 */
 }
 .webTitle{
     padding-left: 150px;
@@ -19,5 +20,14 @@
     }
 #email{
     text-decoration:none;
-    color:rgb(58, 97, 99);
+    color:rgb(172, 246, 250);
+}
+.table{
+    background-color: white;
+    border-radius: 40px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+#spanTitle{
+    color: white;
 }
