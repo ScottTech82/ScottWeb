@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { E404Component } from './e404/e404.component';
 import { AboutComponent } from './about/about.component';
+import { FootComponent } from './foot/foot/foot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     E404Component,
-    AboutComponent
+    AboutComponent,
+    FootComponent
   ],
   imports: [
     BrowserModule,
