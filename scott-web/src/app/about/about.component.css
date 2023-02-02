@@ -4,13 +4,19 @@
 .cvImg{
     display: inline-block;
     padding-left: 20%;
+    margin-bottom: 2%;
 }
 .textArea{
     display: inline-block;
-    width: 35%;
+    width: 37%;
     word-wrap: normal;
+    font-size: large;
 }
 .text{
     color: white;
-    margin-left: 10%;
+    margin-left: 15%;
+}
+#cvbtn{
+    color: white;
+    
 }
