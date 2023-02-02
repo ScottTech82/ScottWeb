@@ -9,10 +9,10 @@
         <br>
         <p id="spanTitle">The images and names are clickable to view the projects.
             <a routerLink="/about" target="_blank">
-            <button class="btn btn-link" id="resume">> Click here to view my resume / cv! <</button>
+            <button class="btn btn-link" id="resume"> The about section and my resume are here!</button>
             </a>
         </p>
-    <table class="table table-sm">
+    <table class="table table-sm" (click)="DinPlan()">
         <tbody>
         <tr>
             <button class="btn btn-link" id="btnlink">
@@ -42,7 +42,7 @@
         </tr>
         </tbody>
     </table> 
-    <table class="table table-sm">
+    <table class="table table-sm" (click)="PRSlink()">
         <tbody>
             <tr>
                     <button class="btn btn-link" id="btnlink">
@@ -69,7 +69,7 @@
             
         </tbody>
     </table>
-        <table class="table table-sm">
+        <table class="table table-sm" (click)="SpAdvLink()">
             <tbody>
             <tr>
                 <button class="btn btn-link" id="btnlink">
@@ -96,6 +96,5 @@
                 </td>
             </tr>
             </tbody>
-            </table>
-        
+        </table>
 </div>
