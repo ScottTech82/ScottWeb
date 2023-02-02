@@ -1,16 +1,18 @@
 .image{
     display: inline-block;
+    cursor: pointer;
 }
 .cvImg{
     display: inline-block;
-    padding-left: 20%;
+    padding-left: 0%;
     margin-bottom: 2%;
 }
 .textArea{
     display: inline-block;
-    width: 37%;
+    width: 48%;
     word-wrap: normal;
     font-size: large;
+    padding-right: 8%;
 }
 .text{
     color: white;
@@ -18,5 +20,7 @@
 }
 #cvbtn{
     color: white;
-    
+    font-size: large;
+    text-decoration: underline;
+    padding: 0px 0px;
 }
