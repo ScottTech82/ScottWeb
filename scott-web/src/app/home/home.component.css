@@ -2,7 +2,6 @@
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 2%;
-    
 }
 #maintitle{
     color: white; /* prior 31, 124, 116 */
@@ -17,22 +16,26 @@
 }
 .webText{
     padding-left: 30px;
+    
     }
 #email{
     text-decoration:none;
     color:rgb(172, 246, 250);
 }
 .table{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.699);
     border-radius: 40px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
+    cursor: pointer;
 }
 #spanTitle{
     color: white;
 }
 #resume{
     padding-left: 250px;
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+    font-size: large;
 }
+
