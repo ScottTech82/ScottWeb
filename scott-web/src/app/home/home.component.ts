@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,9 @@ import { RouterLink } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   PRSlink(): void {
     window.open("http://joshscott82.com/angularprs", '_blank');
@@ -21,7 +23,7 @@ export class HomeComponent implements OnInit {
   }
 
   DinPlan(): void {
-    window.open("http://joshscott82.com/dinnerplanner", '_blank');
+    window.open("http://joshscott82.com/dinplan", '_blank');
     window.focus();
   }
 

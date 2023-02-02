@@ -8,7 +8,7 @@
     color: white; /* prior 31, 124, 116 */
 }
 .webTitle{
-    padding-left: 150px;
+    padding-left: 120px;
     display: inline;
 }
 #btnlink{
@@ -29,5 +29,10 @@
     border-bottom-right-radius: 0%;
 }
 #spanTitle{
+    color: white;
+}
+#resume{
+    padding-left: 250px;
+    text-decoration: none;
     color: white;
 }
