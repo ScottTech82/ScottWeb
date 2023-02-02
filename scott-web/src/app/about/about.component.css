@@ -24,3 +24,11 @@
     text-decoration: underline;
     padding: 0px 0px;
 }
+#homebtn{
+    margin-left: 15%;
+    color: rgba(255, 255, 255, 0.856);
+    background-color: rgba(38, 145, 194, 0.315);
+    padding: 0px 10px;
+    font-size: small;
+    font-style: italic;
+}
