@@ -4,16 +4,49 @@
         Some projects are complete, but most are a work in progress; as I will always be adding some sort of feature or update to them.
         &nbsp;It's a lot of fun creating & building these projects and then seeing how people interact with them. &nbsp;If you have any 
         suggestions or improvements for me, feel free to email me at <a href id="email" mailto="JoshScott82@gmail.com">JoshScott82@gmail.com.</a>
-        &nbsp;The images and names are clickable to view the projects.
         </span>
         <br>
-    <br>
-
+        <br>
+        <p id="spanTitle">The images and names are clickable to view the projects.
+            <a routerLink="/about">
+            <button class="btn btn-link" id="resume">Click here to view my resume!</button>
+            </a>
+        </p>
+    <table class="table table-sm">
+        <tbody>
+        <tr>
+            <button class="btn btn-link" id="btnlink">
+                <h5 class="webTitle" (click)="DinPlan()">Family Dinner Plan</h5>&nbsp;&nbsp;
+                <span class="websubTitle" (click)="DinPlan()"> (work in progress)</span>
+            </button>
+        </tr>
+        <tr>
+            <th>
+                <button>
+                    <img src="/assets/DinnerPlan475x237.png" (click)="DinPlan()">
+                </button>
+            </th>
+            <td>
+                <p class="webText">
+                    <br>
+                    <span>
+                        I started working on this app to help solve the current issue in my household of; what do we have for dinner? &nbsp; We have
+                        three kids, who seem to change what they like to eat on a daily basis and never unanimously agree on a meal. &nbsp;I will be using 
+                        this to enter in what they like to eat and find some form of consesus or at least a plan of action for the week. &nbsp;
+                        This is a work in progress and is not yet complete. &nbsp;I am actively working on building the app and will provide updates consistently.
+                        &nbsp; The menu is hoverable in this one and on the left side of the screen. &nbsp;This app uses SQL database, C# backend (also built in Java),
+                        and Angular for the front end.
+                    </span>
+                </p>
+            </td>
+        </tr>
+        </tbody>
+    </table> 
     <table class="table table-sm">
         <tbody>
             <tr>
                     <button class="btn btn-link" id="btnlink">
-                    <h5 class="webTitle" (click)="PRSlink()">PRS System</h5>
+                    <h5 class="webTitle" (click)="PRSlink()">Purchase Request System (PRS)</h5>
                     </button>
             </tr>
             <tr>
@@ -25,9 +58,9 @@
                 <td>
                     <br>
                     <p class="webText">
-                        <span>Here you can review an example Purchase Request System (PRS), that uses SQL, C#, & Angular to create and store 
+                        <span>Here you can review an example Purchase Request System (PRS), that uses SQL, C# and Java backends, & Angular to create and store 
                         purchase requests, vendors, users, specific products and the request lines. &nbsp;The Guest login allows you to view the 
-                        system but limits the ability to make any changes or updates. &nbsp;If you would like to use an Admin login to view the entire
+                        system, but limits the ability to make any changes or updates. &nbsp;If you would like to use an Admin login to view the entire
                         system, please contact me and I will provide one upon request. &nbsp;When logged in as an Admin you have the ability to add, remove, update,
                         and delete all information in the system. &nbsp;This makes calls to the SQL database to perform those specific functions. </span>
                     </p>
@@ -64,33 +97,5 @@
             </tr>
             </tbody>
             </table>
-        <table class="table table-sm">
-            <tbody>
-            <tr>
-                <button class="btn btn-link" id="btnlink">
-                    <h5 class="webTitle" (click)="DinPlan()">Dinner Planner</h5>&nbsp;&nbsp;
-                    <span class="websubTitle" (click)="DinPlan()"> (work in progress)</span>
-                </button>
-            </tr>
-            <tr>
-                <th>
-                    <button>
-                        <img src="/assets/DinPlan1.png" (click)="DinPlan()">
-                    </button>
-                </th>
-                <td>
-                    <p class="webText">
-                        <br>
-                        <span>
-                            This app is being developed to help solve the current issues in my household of what to have for dinner? &nbsp; We have
-                            three kids, who seem to change what they like to eat on a daily basis and never agree on what to have. &nbsp;I'm hoping this will 
-                            help everyone enter in what they like to eat and find some form of consesus or at least a plan of action for the week. &nbsp;
-                            This is a work in progress and is not yet complete.  I am actively working on building the app and will provide updates consistently.
-                            &nbsp; The menu is hoverable in this one and on the left side of the screen.
-                        </span>
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        
 </div>
