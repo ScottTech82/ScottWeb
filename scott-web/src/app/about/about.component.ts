@@ -9,6 +9,10 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
 
+  printCV(): void {
+    window.open('/assets/J Scott -Software Engineer.pdf');
+  }
+
   ngOnInit(): void {
   }
 
