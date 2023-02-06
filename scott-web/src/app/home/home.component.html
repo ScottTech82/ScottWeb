@@ -7,52 +7,49 @@
         </span>
         <br>
         <br>
-        <p id="spanTitle">The images and names are clickable to view and interact the projects.
-            <a routerLink="/about">
-            <button class="btn btn-link" id="resume"> The about section and my resume are here!</button>
-            </a>
+        <p id="pClickable">The images and names are clickable to view and interact the projects.
         </p>
+        <span id="resumeBtn">
+            <a routerLink="/about">
+            <button class="btn btn-outline-primary" id="resume"> The about section and my resume are here!</button>
+            </a>
+        </span>
     <table class="table table-sm" (click)="DinPlan()">
         <tbody>
         <tr>
-            <button class="btn btn-link" id="btnlink">
-                <h5 class="webTitle" (click)="DinPlan()">Family Dinner Plan</h5>&nbsp;&nbsp;
-                <span class="websubTitle" (click)="DinPlan()"> (work in progress)</span>
-            </button>
+            <h5 class="webTitle">Family Dinner Plan</h5>&nbsp;&nbsp;
+            <span class="websubTitle"> (work in progress)</span>
         </tr>
         <tr>
             <th>
                 <button>
-                    <img src="/assets/DinnerPlan475x237.png" (click)="DinPlan()">
+                <img src="/assets/DinnerPlan475x237.png">
                 </button>
             </th>
             <td>
+                <br>
                 <p class="webText">
-                    <br>
-                    <span>
                         I started working on this app to help solve the current issue in my household of; what do we have for dinner? &nbsp; We have
                         three kids, who seem to change what they like to eat on a daily basis and never unanimously agree on a meal. &nbsp;I will be using 
                         this to enter in what they like to eat and find some form of consesus or at least a plan of action for the week. &nbsp;
                         This is a work in progress and is not yet complete. &nbsp;I am actively working on building the app and will provide updates consistently.
                         &nbsp; The menu is hoverable in this one and on the left side of the screen. &nbsp;This app uses SQL database, C# backend (also built in Java),
                         and Angular for the front end.
-                    </span>
                 </p>
             </td>
         </tr>
+        
         </tbody>
     </table> 
     <table class="table table-sm" (click)="PRSlink()">
         <tbody>
             <tr>
-                    <button class="btn btn-link" id="btnlink">
-                    <h5 class="webTitle" (click)="PRSlink()">Purchase Request System (PRS)</h5>
-                    </button>
+                <h5 class="webTitle">Purchase Request System (PRS)</h5>
             </tr>
             <tr>
                 <th>
                     <button>
-                        <img src="/assets/ScottPRSmd.png" (click)="PRSlink()">
+                        <img src="/assets/ScottPRSmd.png">
                     </button>
                 </th>
                 <td>
@@ -72,15 +69,13 @@
         <table class="table table-sm" (click)="SpAdvLink()">
             <tbody>
             <tr>
-                <button class="btn btn-link" id="btnlink">
-                <h5 class="webTitle" (click)="SpAdvLink()">Space Adventure</h5>&nbsp;&nbsp;
-                <span class="websubTitle" (click)="SpAdvLink()"> (work in progress)</span>
-                </button>
+                <h5 class="webTitle">Space Adventure</h5>&nbsp;&nbsp;
+                <span class="websubTitle"> (work in progress)</span>
             </tr>
             <tr>
                 <th>
                 <button>
-                    <img src="/assets/SpAdvPazaakmd1.png" (click)="SpAdvLink()">
+                    <img src="/assets/SpAdvPazaakmd1.png">
                 </button>
                 </th>
                 <td>
